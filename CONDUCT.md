@@ -1,0 +1,3 @@
+## Commitment to ERC Data Management Requirements
+
+This project, which falls under the European Research Council's Horizon 2020 grant 818702 [TEXTEVOLVE](https://cordis.europa.eu/project/id/818702), is bound to the ERC's protocols on data management and dissemination. For further information see Article 29 of the Horizon 2020 [Annotated Model Grant Agreement](https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/amga/h2020-amga_en.pdf). As such, any peer-reviewed research or original code that arises as a result of the research done under this project will be made open-access to the wider scholarly and scientific community. 
