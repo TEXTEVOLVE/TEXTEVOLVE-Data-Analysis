@@ -1,3 +1,4 @@
+#code sourced and modified from this tutorial: https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb
 from numpy import full
 import os
 
