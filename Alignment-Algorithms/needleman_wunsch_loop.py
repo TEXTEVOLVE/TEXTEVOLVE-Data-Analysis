@@ -94,7 +94,7 @@ def _generate_traceback_array(seq1, seq2):
             traceback_array[row, col] = arrow
             scoring_array[row, col] = score
 
-    return traceback_array
+    return traceback_array,score
 
 
 def _generate_traceback_alignment(traceback_array, seq1, seq2, up_arrow="\u2191",
@@ -157,8 +157,9 @@ def _generate_traceback_alignment(traceback_array, seq1, seq2, up_arrow="\u2191"
 
 
 def needleman_wunsch(seq1, seq2):
-    traceback_array = _generate_traceback_array(seq1, seq2)
-    return _generate_traceback_alignment(traceback_array, seq1, seq2)
+    traceback_array,score = _generate_traceback_array(seq1, seq2)
+    seq1,seq2=_generate_traceback_alignment(traceback_array, seq1, seq2)
+    return seq1, seq2, score
 
 
 def run():
@@ -204,10 +205,11 @@ def run():
                 # print(basetextcontents)
                 # print(textcontents)
                 print()
-                aligned_seq1, aligned_seq2 = needleman_wunsch(base_text_contents, text_contents)
+                aligned_seq1, aligned_seq2, score = needleman_wunsch(base_text_contents, text_contents)
                 print(base_text,text)
                 print(aligned_seq1)
                 print(aligned_seq2)
+                print(score)
 
 
 if __name__ == "__main__":
