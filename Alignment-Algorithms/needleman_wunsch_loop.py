@@ -207,10 +207,31 @@ def run():
                 print()
                 aligned_seq1, aligned_seq2, score = needleman_wunsch(base_text_contents, text_contents)
                 print(base_text,text)
-                print(aligned_seq1)
-                print(aligned_seq2)
+                print_alignment(aligned_seq1, aligned_seq2)
                 print(score)
 
+def print_alignment(string1, string2):
+    string1=string1.replace("\n", "")
+    string2=string2.replace("\n", "")
+    index=0
+    increment=50
+    maxchar=len(string1)
+    while index < maxchar:
+        if index+increment < maxchar:
+            remaining_chars=50
+        else:
+            remaining_chars=maxchar-index
+        print(string1[index:index+increment])
+        print(pipes(remaining_chars))
+        print(string2[index:index+increment])
+        print("")
+        index=index+increment
+        
+def pipes(n):
+    empty=("")
+    for i in range(n):
+        empty=empty+"|"
+    return empty
 
 if __name__ == "__main__":
     run()
