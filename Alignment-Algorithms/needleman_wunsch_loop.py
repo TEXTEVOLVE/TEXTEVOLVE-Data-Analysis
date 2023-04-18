@@ -19,9 +19,6 @@ def _generate_traceback_array(seq1, seq2):
     row_labels = [label for label in "-" + seq1]
     column_labels = [label for label in "-" + seq2]
 
-    scoring_array = full([n_rows, n_columns], 0)
-    traceback_array = full([n_rows, n_columns], "-")
-
     up_arrow = "\u2191"
     right_arrow = "\u2192"
     down_arrow = "\u2193"
@@ -226,7 +223,7 @@ def print_alignment(string1, string2):
         print(string2[index:index+increment])
         print("")
         index=index+increment
-        
+
 def pipes(n):
     empty=("")
     for i in range(n):
