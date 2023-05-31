@@ -25,8 +25,10 @@ def _generate_traceback_array(seq1, seq2):
     up_left_arrow = "\u2196"
 
     arrow = "-"
+    sofit_letters = ['ך','ם','ן','ף','ץ']
     gap_penalty = -2
     match_bonus = 3
+    sofit_match_bonus = 10
     mismatch_penalty = -3
     max_score = -1
     max_index = (-1, -1)
@@ -51,7 +53,10 @@ def _generate_traceback_array(seq1, seq2):
                 from_above_score = above_cell + gap_penalty
                 diagonal_left_cell = scoring_array[row - 1, col - 1]
                 if seq1[row - 1] == seq2[col - 1]:
-                    diagonal_left_cell_score = diagonal_left_cell + match_bonus
+                    if seq1[row-1] in sofit_letters:
+                        diagonal_left_cell_score = diagonal_left_cell + sofit_match_bonus
+                    else:
+                        diagonal_left_cell_score = diagonal_left_cell + match_bonus
                 else:
                     diagonal_left_cell_score = diagonal_left_cell + mismatch_penalty
                 score = max([0, diagonal_left_cell_score, from_above_score, from_left_score])
