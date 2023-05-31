@@ -2,7 +2,7 @@ from numpy import full
 import os
 
 
-def generate_traceback_array(seq1, seq2):
+def _generate_traceback_array(seq1, seq2):
     n_rows = len("-" + seq1)
     n_columns = len("-" + seq2)
     scoring_array = full([n_rows,n_columns],0)
@@ -70,7 +70,7 @@ def generate_traceback_array(seq1, seq2):
             scoring_array[row,col] = score
     return traceback_array, score, max_score, max_index
 
-def traceback_alignment(traceback_array,seq1,seq2,up_arrow = "\u2191" ,\
+def _generate_traceback_alignment(traceback_array,seq1,seq2, max_index, up_arrow = "\u2191" ,\
                         left_arrow="\u2190",up_left_arrow="\u2196",stop="-"):
     n_rows = len(seq1) +1
     n_columns = len(seq2) +1
@@ -120,8 +120,8 @@ def traceback_alignment(traceback_array,seq1,seq2,up_arrow = "\u2191" ,\
     return aligned_seq1, aligned_seq2
 
 def smith_waterman(seq1, seq2):
-    traceback_array,score = _generate_traceback_array(seq1, seq2)
-    seq1, seq2= _generate_traceback_alignment(traceback_array, seq1, seq2)
+    traceback_array, score, max_score, max_index = _generate_traceback_array(seq1, seq2)
+    seq1, seq2= _generate_traceback_alignment(traceback_array, seq1, seq2, max_index)
     return seq1, seq2, score
 
 def run():
@@ -167,7 +167,7 @@ def run():
                 # print(basetextcontents)
                 # print(textcontents)
                 print()
-                aligned_seq1, aligned_seq2, score = needleman_wunsch(base_text_contents, text_contents)
+                aligned_seq1, aligned_seq2, score = smith_waterman(base_text_contents, text_contents)
                 print(base_text,text)
                 print_alignment(aligned_seq1, aligned_seq2)
                 print(score)
