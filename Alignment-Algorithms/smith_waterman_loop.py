@@ -131,7 +131,7 @@ def run():
     # creates an object known as 'cwd' to which the command os.getcwd() is associated.
     print("Current working directory:{0}".format(cwd))
     # prints the current working directory using the object cwd.
-    base_directory = os.path.join(cwd, "Alignment Data0")
+    base_directory = os.path.join(cwd, "Alignment Data1")
     # joins the current working directory and the subfile which we want to read under the object 'basedirectory'
     with os.scandir(base_directory) as folders:
         folders = [folder for folder in folders if folder.is_dir()]
