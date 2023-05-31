@@ -66,8 +66,8 @@ def _generate_traceback_array(seq1, seq2):
                 elif score == diagonal_left_cell_score:
                     arrow = up_left_arrow
 
-        traceback_array[row, col] = arrow
-        scoring_array[row, col] = score
+            traceback_array[row, col] = arrow
+            scoring_array[row, col] = score
 
     return traceback_array, score, max_score, max_index
 
