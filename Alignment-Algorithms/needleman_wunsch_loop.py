@@ -1,7 +1,11 @@
-#code sourced and modified from this tutorial: https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb
+# imports the full numpy module, in which we have built the Needleman-Wunsch algorithm.
 from numpy import full
+# imports the module which we will be using. The os module allows us to directly interface between python and our operating system.
 import os
 
+
+# tells computer that the first sequence to be aligned is the content of the base text file.
+# tells computer that the second sequence to be aligned is the content of the texts contents files
 def _generate_traceback_array(seq1, seq2):
     n_rows = len("-" + seq1)
     n_columns = len("-" + seq2)
@@ -91,7 +95,7 @@ def _generate_traceback_array(seq1, seq2):
             traceback_array[row, col] = arrow
             scoring_array[row, col] = score
 
-    return traceback_array,score
+    return traceback_array, score
 
 
 def _generate_traceback_alignment(traceback_array, seq1, seq2, up_arrow="\u2191",
@@ -232,3 +236,4 @@ def pipes(n):
 
 if __name__ == "__main__":
     run()
+#find len of the string and then write the number of pipes into the print line between the two sequences.
