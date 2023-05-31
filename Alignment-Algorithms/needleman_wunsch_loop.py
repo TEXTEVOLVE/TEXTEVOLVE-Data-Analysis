@@ -31,8 +31,10 @@ def _generate_traceback_array(seq1, seq2):
     up_left_arrow = "\u2196"
 
     arrow = "-"
+    sofit_letters = ['ך','ם','ן','ף','ץ']
     gap_penalty = -0
     match_bonus = 5
+    sofit_match_bonus = 10
     mismatch_penalty = -1
 
     # iterate over columns first because we want to do
@@ -76,7 +78,10 @@ def _generate_traceback_array(seq1, seq2):
                 # when indexing back to the sequence we want row -1 and col - 1.
                 # since row 1 represents character 0 of the sequence.
                 if seq1[row - 1] == seq2[col - 1]:
-                    diagonal_left_cell_score = diagonal_left_cell + match_bonus
+                    if seq1[row - 1] in sofit_letters:
+                        diagonal_left_cell_score = diagonal_left_cell + sofit_match_bonus
+                    else:
+                        diagonal_left_cell_score = diagonal_left_cell + match_bonus
                 else:
                     diagonal_left_cell_score = diagonal_left_cell + mismatch_penalty
 
