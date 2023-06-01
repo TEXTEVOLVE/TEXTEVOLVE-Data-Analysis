@@ -1,3 +1,4 @@
+#this code was modified from the code presented in the tutorial here: https://github.com/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb
 # imports the full numpy module, in which we have built the Needleman-Wunsch algorithm.
 from numpy import full
 # imports the module which we will be using. The os module allows us to directly interface between python and our operating system.
