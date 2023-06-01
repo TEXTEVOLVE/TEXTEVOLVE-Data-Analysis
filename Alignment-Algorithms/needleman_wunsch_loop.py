@@ -32,7 +32,8 @@ def _generate_traceback_array(seq1, seq2):
 
     arrow = "-"
     sofit_letters = ['ך','ם','ן','ף','ץ']
-    gap_penalty = -0
+    gap_penalty =-1
+    #gap_extension_penalty=-0.5
     match_bonus = 5
     sofit_match_bonus = 10
     mismatch_penalty = -1
@@ -67,9 +68,24 @@ def _generate_traceback_array(seq1, seq2):
                 cell_to_the_left = scoring_array[row, col - 1]
                 from_left_score = cell_to_the_left + gap_penalty
 
+                #option to initiate an affine gap penalty:
+                #cell_to_the_left = scoring_array[row, col - 1]
+                #if traceback_array[row, col - 1] == left_arrow:
+                #    from_left_score = cell_to_the_left + gap_extension_penalty
+                #else:
+                #    from_left_score = cell_to_the_left + gap_penalty
+
+
                 # or from above (representing an insertion into seq2)
-                above_cell = scoring_array[row - 1, col]
+                above_cell = scoring_array[row-1, col]
                 from_above_score = above_cell + gap_penalty
+
+                #option to initiate an affine gap penalty:
+                #above_cell = scoring_array[row - 1, col]
+                #if traceback_array[row - 1, col] == up_arrow:
+                #    from_above_score = above_cell + gap_extension_penalty
+                #else:
+                #    from_above_score = above_cell + gap_penalty
 
                 # diagonal cell, representing a substitution (e.g. A --> T)
                 diagonal_left_cell = scoring_array[row - 1, col - 1]
@@ -215,6 +231,7 @@ def run():
                 print(base_text,text)
                 print_alignment(aligned_seq1, aligned_seq2)
                 print(score)
+                print(score / len(aligned_seq1))
 
 def print_alignment(string1, string2):
     string1=string1.replace("\n", "")
