@@ -14,24 +14,25 @@ def _generate_traceback_array(seq1, seq2):
             scoring_array[row_index, col_index] = count
             count += 1
 
-    row_labels = [label for label in "-" + seq1]
-    column_labels = [label for label in "-" + seq2]
+    #row_labels = [label for label in "-" + seq1]
+    #column_labels = [label for label in "-" + seq2]
 
     up_arrow = "\u2191"
-    right_arrow = "\u2192"
-    down_arrow = "\u2193"
+    #right_arrow = "\u2192"
+    #down_arrow = "\u2193"
     left_arrow = "\u2190"
-    down_right_arrow = "\u2198"
+    #down_right_arrow = "\u2198"
     up_left_arrow = "\u2196"
 
     arrow = "-"
-    sofit_letters = ['ך','ם','ן','ף','ץ']
-    gap_penalty = -2
-    match_bonus = 3
-    sofit_match_bonus = 10
-    mismatch_penalty = -3
+    #sofit_letters = ['ך','ם','ן','ף','ץ']
+    gap_penalty = -1
+    match_bonus = 1
+    #sofit_match_bonus = 2
+    mismatch_penalty = -1
     max_score = -1
     max_index = (-1, -1)
+    score = 0
 
     for row in range(1, n_rows):
         for col in range(1, n_columns):
@@ -53,10 +54,11 @@ def _generate_traceback_array(seq1, seq2):
                 from_above_score = above_cell + gap_penalty
                 diagonal_left_cell = scoring_array[row - 1, col - 1]
                 if seq1[row - 1] == seq2[col - 1]:
-                    if seq1[row-1] in sofit_letters:
-                        diagonal_left_cell_score = diagonal_left_cell + sofit_match_bonus
-                    else:
-                        diagonal_left_cell_score = diagonal_left_cell + match_bonus
+                    diagonal_left_cell_score = diagonal_left_cell + match_bonus
+                    #if seq1[row-1] in sofit_letters:
+                        #diagonal_left_cell_score = diagonal_left_cell + sofit_match_bonus
+                    #else:
+                        #diagonal_left_cell_score = diagonal_left_cell + match_bonus
                 else:
                     diagonal_left_cell_score = diagonal_left_cell + mismatch_penalty
                 score = max([0, diagonal_left_cell_score, from_above_score, from_left_score])
@@ -90,18 +92,18 @@ def _generate_traceback_alignment(traceback_array, seq1, seq2, max_index, up_arr
     alignment_indicator = ""
 
     while arrow is not "-":
-        print("Currently on row:", row)
-        print("Currently on col:", col)
+        #print("Currently on row:", row)
+        #print("Currently on col:", col)
         arrow = traceback_array[row, col]
-        print("Arrow:", arrow)
+        #print("Arrow:", arrow)
         if arrow == up_arrow:
-            print("insert indel into top sequence")
-            aligned_seq2 = "-"
+            #print("insert indel into top sequence")
+            aligned_seq2 = "-" + aligned_seq2
             aligned_seq1 = seq1[row - 1] + aligned_seq1
             row -= 1
         # This tells the computer what to do when there is an insertion or deletion in seq1
         elif arrow == up_left_arrow:
-            print("match or mismatch")
+            #print("match or mismatch")
             seq1_character = seq1[row - 1]
             seq2_character = seq2[col - 1]
             aligned_seq1 = seq1[row - 1] + aligned_seq1
@@ -114,7 +116,7 @@ def _generate_traceback_alignment(traceback_array, seq1, seq2, max_index, up_arr
             col -= 1
         # This tells the computer what to do when there is a match or a mismatch between sequences
         elif arrow == left_arrow:
-            print("Insert indel into left sequence")
+            #print("Insert indel into left sequence")
             aligned_seq1 = "-" + aligned_seq1
             aligned_seq2 = seq2[col - 1] + aligned_seq2
             alignment_indicator = " " + alignment_indicator
@@ -140,7 +142,7 @@ def run():
     # creates an object known as 'cwd' to which the command os.getcwd() is associated.
     print("Current working directory:{0}".format(cwd))
     # prints the current working directory using the object cwd.
-    base_directory = os.path.join(cwd, "Alignment Data1")
+    base_directory = os.path.join(cwd, "Test_Leuven")
     # joins the current working directory and the subfile which we want to read under the object 'basedirectory'
     with os.scandir(base_directory) as folders:
         folders = [folder for folder in folders if folder.is_dir()]
@@ -158,7 +160,7 @@ def run():
             # calls each file within the folder a 'text' and tells the computer to iterate through each file.
             # tells the computer to ignore files ending in DS_Store or html.
             # print(texts) tells the computer to print all files within the subfolder.
-            base_text_pattern = "JTS"
+            base_text_pattern = "Seq1"
             base_text = [text for text in texts if base_text_pattern in text.name][0]
             basetextfilepath = os.path.join(test_directory, base_text)
             # tells the computer that the first text in the order of iterations should have 'JTS' in the filename.
@@ -180,6 +182,7 @@ def run():
                 print(base_text, text)
                 print_alignment(aligned_seq1, aligned_seq2)
                 print(score)
+                print(score / len(aligned_seq1))
 
 
 def print_alignment(string1, string2):
@@ -201,7 +204,7 @@ def print_alignment(string1, string2):
 
 
 def pipes(n):
-    empty = ("")
+    empty = ""
     for i in range(n):
         empty = empty + "|"
     return empty
