@@ -1,0 +1,25 @@
+# Textual Sequence Alignment
+
+**Notice**: this is a work in progress pending the publication of our article, provisionally titled 'Pairwise Genetic Sequence Alignment Algorithms to Measure Textual Similarity' (Estara J Arrant: main author who developed the method, wrote the code, and conducted the computational analysis; Jeroen Verrijssen: secondary author/contributor, the textual expert who assessed the viability of using sequence alignment to analyse textual similarity in a specific Aramaic text tradition). That article lays out the foundation of sequence alignment technology, its role in the phylogenetic process, and its adaptation to the study of textual evolution. 
+
+Upon publication, this repository will provide the reader with a step-by-step guide as to the recommended practices for implementing sequence analysis on a text tradition. In the meantime, please see the following introduction to the method:
+
+### What is Sequence Alignment and How Can it Apply to Texts?
+
+A text tradition is a phenomenon in which a specific text has been copied and re-copied by scribes over time and place. In the philological study of textual traditions, a major aim is to reconstruct the history of this copying, and to ask the following questions: where did the text originate, and who copied from whom? In other words, how did the text tradition evolve over time and come to be extant today? 
+
+One of the first steps in analysing the evolution of a text tradition is to create a 'synopsis', or a side-by-side comparison, of the various 'witnesses' of texts that have been preserved to the modern day. This allows us to see just how similar or different the witnesses are. From this, a whole field of enquiry has arisen around the process of assessing patterns and types of variants which can be seen from the synopsis, and then using that data to (re)construct a 'family tree' of texts. 
+
+While creating a synopsis was traditionally and necessarily a manual task, recent technological developments have produced automated methods which will take a number of texts and directly and quickly compare them, displaying them across from each other so that the scholar can assess their similarities and differences. This process is known as 'automated collation'. It is, however, restricted to displaying texts in such a way that a qualitative comparison of their details can be made.
+
+The corresponding method to 'synopsis' in the biological sciences can be considered 'sequence alignment'. Genetic data, which is formed of base pairs of nucleotides that are represented as strings of characters, is similarly compared as a preliminary step before constructing a phylogenetic tree, or as a way to measure the degree of mutation between two strings of genetic data, or in an attempt to identify genetic variation, etc. However, since genetic data is often immense, complex, and difficult to read, computational methods were developed to *mathematically* compare strings of base pairs. These methods are known as sequence alignment algorithms. The goal of these algorithms is to accurately align two sets of genetic data so that all of the matching nucleotides, all of the genetic mutations, and all of the missing or 'deleted' genetic data between two genomes can be identified and accurately depicted. These algorithms print an 'alignment' as well as an alignment score - typically, the goal is to find the highest score between any two genomes. Such algorithms generally are 'dynamic programming' algorithms, which go through each character in a genome, assess the similarity or difference using scoring rules, and then print the two sequences that, when aligned against each other, produce the highest score. As such, this is a computational, automated, and mathematical process. Many different variations of these algorithms exist, some to analyse only two genetic sequences at once (pairwise analysis), some to analyse many (multiple sequence alignment), etc. 
+
+Sequence alignment can (and has been) be used on texts as an automated, computational, and mathematically rigorous complement to traditional philological methods of synopsis. In this way, it allows for other computational philological methods to be used to analyse the history of a tradition of texts.  This paper tests, shows the validity and challenges of, and sets forth the methodological groundwork for  tailoring sequence alignment algorithms to the specific demands of textual research. It also builds off recent advancements in textual sequence alignment technology and is a response to a recent paper published on the subject. It also will provide scholars with straightforward, accessible, and reproducible code that can be adapted to any text tradition. It is our argument that sequence alignment algorithms can be successfully integrated into a philological study that includes both computational and traditional methods of textual analysis.
+
+Preliminary reading, for those interested: 
+Rosenberg, Michael S., ed. Sequence alignment: Methods, Models, Concepts, and Strategies. Univ of California Press, 2009.
+
+
+
+
+
