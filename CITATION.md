@@ -1,4 +1,4 @@
-##TEXTEVOLVE Project
+## TEXTEVOLVE Project
 
 This endeavour to study the evolution of Targum manuscripts is conducted as a part of the ERC Horizon 2020 [TEXTEVOLVE](https://cordis.europa.eu/project/id/818702) grant project, grant id 818702. 
 ### List of Modules Used
