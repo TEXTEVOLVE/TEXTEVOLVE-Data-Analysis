@@ -1,0 +1,5 @@
+Contains the alignment files for the Largest Shared Passage of cross-family analysis.
+Folders:
+- nw_cf_largest_shared_passage_vbv
+- nw_cf_largest_shared_passage_whole
+
