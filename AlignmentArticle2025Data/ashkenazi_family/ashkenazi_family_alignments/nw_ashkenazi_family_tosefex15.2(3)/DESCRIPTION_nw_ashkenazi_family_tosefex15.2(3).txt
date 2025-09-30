@@ -1,0 +1,8 @@
+Contains the Needleman-Wunsch alignments for the Ashkenazi family Tosefta passages to Exodus 15.2(3). Referenced in Table 1 and 2.1.2.2.
+
+Files:
+- nw_tosefex15.2(3)_bh3.txt
+- nw_tosefex15.2(3)_t1629a.txt
+- nw_tosefex15.2(3)_t1668a.txt
+- nw_tosefex15.2(3)_t1673a.txt
+- nw_tosefex15.2(3)_t1685a.txt
