@@ -1,0 +1,4 @@
+Contains the alignment files for the cross-family subset1 in both whole and verse-by-verse versions.
+Folders:
+- nw_cross_family_subset1_vbv
+- nw_cross_family_subset1_whole
