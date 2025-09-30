@@ -1,0 +1,24 @@
+Contains the whole transcriptions for the cross-family set1 analytical unit.
+Files:
+- AddSet1_whole.txt
+- BH3Set1_whole.txt
+- Hebr313Set1_whole.txt
+- JTSSet1_whole.txt
+- OrSet1_whole.txt
+- t1601iSet1_whole.txt
+- t1604iSet1_whole.txt
+- t1610iSet1_whole.txt
+- t1614aSet1_whole.txt
+- t1616iSet1_whole.txt
+- t1626iSet1_whole.txt
+- t1629aSet1_whole.txt
+- t1646aSet1_whole.txt
+- t1647iSet1_whole.txt
+- t1652iSet1_whole.txt
+- t1668aSet1_whole.txt
+- t1673aSet1_whole.txt
+- t1680iSet1_whole.txt
+- t1685aSet1_whole.txt
+- t1689aSet1_whole.txt
+- t1691iSet1_whole.txt
+- t1696iSet1_whole.txt
