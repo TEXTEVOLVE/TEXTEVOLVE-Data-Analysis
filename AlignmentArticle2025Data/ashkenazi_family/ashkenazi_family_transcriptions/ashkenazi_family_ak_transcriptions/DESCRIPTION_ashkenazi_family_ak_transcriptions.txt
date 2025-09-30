@@ -1,0 +1,18 @@
+Contains the Arba Kitin transcriptions of the Ashkenazi Liturgical Targum family.
+
+Files:
+- add19664_ak.txt
+- bh3_ak.txt
+- hebr313_ak.txt
+- jts8092_ak.txt
+- michael617_ak.txt
+- or2735_ak.txt
+- t1614a_ak.txt
+- t1629a_ak.txt
+- t1646a_ak.txt
+- t1668a_ak.txt
+- t1673a_ak.txt
+- t1681a_ak.txt
+- t1685a_ak.txt
+
+
