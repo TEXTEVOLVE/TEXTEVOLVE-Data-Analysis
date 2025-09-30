@@ -1,0 +1,28 @@
+Contains the EET (Entire Extant Text) cross-family Needleman-Wunsch alignment files.
+EET means the entire text analysed in the paper, regardless of missing verses, including the Tosefta at Exodus 15:2 and the Arba Kitin passage.
+
+Files:
+- eet_cf_nw_add19664.txt
+- eet_cf_nw_bh3.txt
+- eet_cf_nw_hebr313.txt
+- eet_cf_nw_jts.txt
+- eet_cf_nw_michael617.txt
+- eet_cf_nw_or2735.txt
+- eet_cf_nw_t1601i.txt
+- eet_cf_nw_t1604i.txt
+- eet_cf_nw_t1610i.txt
+- eet_cf_nw_t1614a.txt
+- eet_cf_nw_t1616i.txt
+- eet_cf_nw_t1626i.txt
+- eet_cf_nw_t1629a.txt
+- eet_cf_nw_t1646a.txt
+- eet_cf_nw_t1647i.txt
+- eet_cf_nw_t1652i.txt
+- eet_cf_nw_t1668a.txt
+- eet_cf_nw_t1673a.txt
+- eet_cf_nw_t1680i.txt
+- eet_cf_nw_t1681a.txt
+- eet_cf_nw_t1685a.txt
+- eet_cf_nw_t1689i.txt
+- eet_cf_nw_t1691i.txt
+- eet_cf_nw_t1696i.txt
