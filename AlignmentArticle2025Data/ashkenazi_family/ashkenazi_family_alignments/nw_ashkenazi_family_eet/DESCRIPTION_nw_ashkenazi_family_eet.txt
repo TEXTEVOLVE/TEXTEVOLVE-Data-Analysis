@@ -1,0 +1,16 @@
+Contains the Needleman-Wunsch alignments and scores for the EET Ashkenazi manuscripts. These manuscripts were aligned with each other. 
+Files:
+- nw_eet_add19664.txt
+- nw_eet_BH3.txt
+- nw_eet_Hebr313.txt
+- nw_eet_JTS8092.txt
+- nw_eet_Michael617.txt
+- nw_eet_Or2735.txt
+- nw_eet_t1614a.txt
+- nw_eet_t1629a.txt
+- nw_eet_t1646a.txt
+- nw_eet_t1668a.txt
+- nw_eet_t1673a.txt
+- nw_eet_t1681a.txt
+- nw_eet_t1685a.txt
+
