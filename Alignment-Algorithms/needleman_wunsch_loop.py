@@ -8,6 +8,8 @@ import os
 # tells computer that the first sequence to be aligned is the content of the base text file.
 # tells computer that the second sequence to be aligned is the content of the texts contents files
 def _generate_traceback_array(seq1, seq2):
+    ''' tells computer that the first sequence to be aligned is the content of the base text file. Also tells computer 
+    that the second sequence to be aligned is the content of the texts' contents files '''
     n_rows = len("-" + seq1)
     n_columns = len("-" + seq2)
     scoring_array = full([n_rows, n_columns], 0)
@@ -39,8 +41,7 @@ def _generate_traceback_array(seq1, seq2):
     sofit_match_bonus = 10
     mismatch_penalty = -1
 
-    # iterate over columns first because we want to do
-    # all the columns for row 1 before row 2
+    ''' iterate over columns first because we want to do all the columns for row 1 before row 2'''
     for row in range(n_rows):
         for col in range(n_columns):
             if row == 0 and col == 0:
@@ -122,6 +123,7 @@ def _generate_traceback_array(seq1, seq2):
 
 def _generate_traceback_alignment(traceback_array, seq1, seq2, up_arrow="\u2191",
                                  left_arrow="\u2190", up_left_arrow="\u2196", stop="-"):
+                                     '''Goes back through the matrix and traces the alignment'''
     row = len(seq1)
     col = len(seq2)
     arrow = traceback_array[row, col]
@@ -180,12 +182,14 @@ def _generate_traceback_alignment(traceback_array, seq1, seq2, up_arrow="\u2191"
 
 
 def needleman_wunsch(seq1, seq2):
+    ''' Runs Needleman-Wunsch algorithm '''
     traceback_array,score = _generate_traceback_array(seq1, seq2)
     seq1,seq2=_generate_traceback_alignment(traceback_array, seq1, seq2)
     return seq1, seq2, score
 
 
 def run():
+    ''' This is the loop for the entire program'''
     os.getcwd()
     # within the os module, returns the current working directory of a process.
     cwd = os.getcwd()
@@ -235,6 +239,7 @@ def run():
                 print(score / len(aligned_seq1))
 
 def print_alignment(string1, string2):
+    ''' Prints the alignment with pipes for ease of reading '''
     string1=string1.replace("\n", "")
     string2=string2.replace("\n", "")
     index=0
@@ -252,6 +257,7 @@ def print_alignment(string1, string2):
         index=index+increment
 
 def pipes(n):
+    ''' Attaches pipes to alignment '''
     empty=("")
     for i in range(n):
         empty=empty+"|"
