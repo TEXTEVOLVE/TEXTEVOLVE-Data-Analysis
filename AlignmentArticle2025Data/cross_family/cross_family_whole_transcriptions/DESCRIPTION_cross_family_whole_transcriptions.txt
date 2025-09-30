@@ -1,0 +1,6 @@
+Contains the transcriptions for the cross-family analysis (where a special combination of verses was required).
+
+Folders:
+- cross_family_largest_shared_passage_whole_transcriptions
+- cross_family_set1_whole_transcriptions
+- cross_family_set2_whole transcriptions
