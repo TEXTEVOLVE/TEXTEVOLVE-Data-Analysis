@@ -1,0 +1,6 @@
+Contains the Smith-Waterman alignments with Michael617 as base text.
+
+Files:
+- michael617_sw_ak.txt
+- michael617_sw_eet.txt
+- michael617_sw_emt.txt

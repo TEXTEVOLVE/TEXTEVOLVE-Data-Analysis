@@ -1,0 +1,11 @@
+Contains screenshots of the Smith-Waterman alignments with Michael617a and the highest-scoring manuscripts.
+Files:
+- mich/bh3SW
+- mich/jtsSW1
+- mich/jtsSW2
+- mich/jtsSW3
+- mich/t1646aSW1
+- mich/t1646aSW2
+- mich/t1646aSW3
+- mich617SWEx14.30
+

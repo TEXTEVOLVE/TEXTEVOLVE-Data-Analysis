@@ -1,0 +1,6 @@
+Contains the Michael617 manuscript transcriptions.
+Files:
+- michael617_EET.txt
+- michael617_transcription_akex15.3.txt
+- michael617_transcription_ex14.30.txt
+- michael617_transcription_ex14.31.txt

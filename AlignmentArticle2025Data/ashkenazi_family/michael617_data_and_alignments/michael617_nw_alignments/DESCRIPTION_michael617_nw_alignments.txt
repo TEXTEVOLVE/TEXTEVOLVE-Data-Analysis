@@ -1,0 +1,7 @@
+Contains the Needleman-Wunsch alignments with Michael617 as a base text.
+Files:
+- michael617_nw_ak.txt
+- michael617_nw_ex14.30.txt
+- michael617_nw_ex14.31.txt
+
+
