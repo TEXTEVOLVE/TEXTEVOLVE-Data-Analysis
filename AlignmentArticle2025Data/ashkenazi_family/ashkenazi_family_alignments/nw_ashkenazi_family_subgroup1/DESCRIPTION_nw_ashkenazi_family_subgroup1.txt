@@ -1,0 +1,21 @@
+The manuscripts compared in Subgroup 1: All the MSS in the All_Verses group, plus B.H.3, Hebr313, t1681a, t1685a. Referenced in Table 1 and in 2.1.2.1. Excluded verses:
+
+- Ex14.31
+- Ex15.7
+- Ex15.13
+- Ex15.14
+- Ex15.15
+
+Files:
+- nw_set1_add19664.txt
+- nw_set1_bh3.txt
+- nw_set1_hebr313.txt
+- nw_set1_jts.txt
+- nw_set1_or2735.txt
+- nw_set1_t1614a.txt
+- nw_set1_t1629a.txt
+- nw_set1_t1646a.txt
+- nw_set1_t1668a.txt
+- nw_set1_t1673a.txt
+- nw_set1_t1681a.txt
+- nw_set1_t1685a.txt
