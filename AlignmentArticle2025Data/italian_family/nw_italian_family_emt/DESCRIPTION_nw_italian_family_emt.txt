@@ -1,0 +1,13 @@
+Contains the alignments of the EMT level of Italian manuscripts to each other.
+Files:
+- nw_emt_t1601i.txt
+- nw_emt_t1604i.txt
+- nw_emt_t1610i.txt
+- nw_emt_t1614i.txt
+- nw_emt_t1626i.txt
+- nw_emt_t1647i.txt
+- nw_emt_t1652i.txt
+- nw_emt_t1680i.txt
+- nw_emt_t1689i.txt
+- nw_emt_t1691i.txt
+- nw_emt_t1696i.txt
