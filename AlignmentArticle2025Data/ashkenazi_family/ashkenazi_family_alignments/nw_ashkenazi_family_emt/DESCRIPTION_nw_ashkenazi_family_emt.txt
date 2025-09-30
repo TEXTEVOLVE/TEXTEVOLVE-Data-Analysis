@@ -1,0 +1,15 @@
+Contains the alignment files of the Ashkenazi emt group to each other.
+Files:
+- nw_emt_add19664.txt
+- nw_emt_bh3.txt
+- nw_emt_hebr313.txt
+- nw_emt_jts.txt
+- nw_emt_michael617.txt
+- nw_emt_or2735.txt
+- nw_emt_t1614a.txt
+- nw_emt_t1629a.txt
+- nw_emt_t1646a.txt
+- nw_emt_t1668a.txt
+- nw_emt_t1673a.txt
+- nw_emt_t1681a.txt
+- nw_emt_t1685a.txt
