@@ -1,0 +1,15 @@
+Contains the score matrices for the cross-family analysis.
+The 'michael_sw_nw' file has the Smith-Waterman scores for Michael617 against all the manuscripts in that file, added to the Needleman-Wunsch scores for the other manuscripts. This is because Michael617 is a fragment manuscript, and the Smith-Waterman algorithm found the shared region between Michael617 and every other manuscript in the corpus and compared only that shared region, thus generating a positive score.
+
+Files:
+- score_matrix_cf_ak.xlsx
+- score_matrix_cf_eet.xlsx
+- score_matrix_cf_longest_shared_passage_michael_sw_nw.xlsx
+- score_matrix_cf_longest_shared_passage_vbv.xlsx
+- score_matrix_cf_longest_shared_passage_whole.xlsx
+- score_matrix_cf_noakitalian.xlsx
+- score_matrix_cf_subset1_vbv.xlsx
+- score_matrix_cf_subset1_whole.xlsx
+- score_matrix_cf_subset2_vbv.xlsx
+- score_matrix_cf_subset2_whole.xlsx
+- score_matrix_cf_tosefex15.2.xlsx
