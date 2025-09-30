@@ -1,0 +1,6 @@
+Contains all the files relevant to the Ashkenazi family. 
+Folders:
+- ashkenazi_family_alignments
+- ashkenazi_family_score_matrices
+- ashkenazi_family_transcriptions
+- michael617_data_and_alignments
