@@ -1,0 +1,15 @@
+Contains the folders which contain the verse level transcriptions of the Liturgical Targums for the Ashkenazi family.
+
+Folders:
+- Add19664
+- B.H.3
+- Hebr313
+- JTS8092
+- Or27356
+- t1614a
+- t1629a
+- t1646a
+- t1668a
+- t1673a
+- t1681a
+- t1685a
