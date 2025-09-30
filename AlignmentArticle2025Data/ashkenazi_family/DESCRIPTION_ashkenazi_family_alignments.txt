@@ -1,0 +1,12 @@
+Contains all the alignment files for the Ashkenazi family.
+Folders:
+- nw_ashkenazi_family_ak
+- nw_ashkenazi_family_eet
+- nw_ashkenazi_family_emt
+- nw_ashkenazi_family_lsp
+- nw_ashkenazi_family_set1
+- nw_ashkenazi_family_set2
+- nw_ashkenazi_family_set3
+- nw_ashkenazi_family_tosefex15.2
+- nw_ashkenazi_family_verse_level
+
