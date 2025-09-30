@@ -1,0 +1,12 @@
+Contains all the score matrices for the ashkenazi family. 
+
+Files:
+
+- score_matrix_ashkenazi_family_ak.xlsx
+- score_matrix_ashkenazi_family_eet.xlsx
+- score_matrix_ashkenazi_family_emt.xlsx
+- score_matrix_ashkenazi_family_subgroup1.xlsx
+- score_matrix_ashkenazi_family_subgroup2.xlsx
+- score_matrix_ashkenazi_family_subgroup3.xlsx
+- score_matrix_ashkenazi_family_tosefex15.2.xlsx
+- score_matrix_ashkenazi_family_lsp.xlsx
