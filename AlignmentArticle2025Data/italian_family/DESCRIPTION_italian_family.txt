@@ -1,0 +1,12 @@
+Contains all the documents relating solely to the Italian Family.
+Folders:
+- italian_family_alignments
+- italian_family_score_matrices
+- italian_manuscript_ak_transcriptions
+- italian_manuscript_eet_noak_transcriptions
+- italian_manuscript_eet_transcriptions
+- italian_manuscript_emt_transcriptions
+- italian_manuscript_tosefex15.2_transcriptions
+- italian_manuscript_verse_transcriptions
+
+
