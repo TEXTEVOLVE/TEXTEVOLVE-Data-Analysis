@@ -1,0 +1,8 @@
+Contains the spreadsheets of score matrices for the Italian family alignment groups.
+Files:
+- score_matrix_italian_family_ak.xlsx
+- score_matrix_italian_family_eet.xlsx
+- score_matrix_italian_family_emt.xlsx
+- score_matrix_italian_family_subgroup1.xlsx
+- score_matrix_italian_family_tosefex15.2.xlsx
+- score_matrix_italian_family_verse_by_verse.xlsx
