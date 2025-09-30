@@ -1,0 +1,15 @@
+Contains alignments for Exodus 14:30, for all the full Ashkenazi manuscripts containing this verse.
+
+Files:
+nw_add19664_ex14.30.txt
+nw_bh3_ex14.30.txt
+nw_hebr313_ex14.30.txt
+nw_jts_ex14.30.txt
+nw_or2735_ex14.30.txt
+nw_t1614a_ex14.30.txt
+nw_t1629a_ex14.30.txt
+nw_t1646a_ex14.30.txt
+nw_t1668a_ex14.30.txt
+nw_t1673a_ex14.30.txt
+nw_t1681a_ex14.30.txt
+nw_t1685a_ex14.30.txt
