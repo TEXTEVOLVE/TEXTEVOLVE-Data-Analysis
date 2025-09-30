@@ -1,0 +1,21 @@
+Contains the whole transcriptions for the cross-family analysis of the largest shared passage. This is referenced in section 2.2.2.1 of the article.
+Files:
+- Add.19664_whole_lsp.txt
+- JTS8092_whole_lsp.txt
+- Or2735_whole_lsp.txt
+- t1601i_whole_lsp.txt
+- t1604i_whole_lsp.txt
+- t1610i_whole_lsp.txt
+- t1614a_whole_lsp.txt
+- t1616i_whole_lsp.txt
+- t1626i_whole_lsp.txt
+- t1629a_whole_lsp.txt
+- t1646a_whole_lsp.txt
+- t1647i_whole_lsp.txt
+- t1652i_whole_lsp.txt
+- t1668a_whole_lsp.txt
+- t1673a_whole_lsp.txt
+- t1680i_whole_lsp.txt
+- t1689i_whole_lsp.txt
+- t1691i_whole_lsp.txt
+- t1696i_whole_lsp.txt
