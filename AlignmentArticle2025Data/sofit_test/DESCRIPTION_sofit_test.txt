@@ -1,0 +1,10 @@
+Contains the files relating to the sofit scoring tests. 
+
+Files:
+- Or2735/t1685aSofit
+- Or2735t1685aSofit2
+- sofit_match5_mismatch_2_gap3.txt
+- sofit_match5_mismatch2_gap2.txt
+- sofit_match5_mismatch2.txt
+- sofit_match5_mismatch3_gap2.txt
+- sofit_match5_mismatch3.txt
