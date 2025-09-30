@@ -1,0 +1,13 @@
+Contains the Needleman-Wunsch alignments and scores for the EET Italian manuscripts. These manuscripts were aligned with each other.
+Files:
+- nw_italian_family_eet_t1601i.txt
+- nw_italian_family_eet_t1604i.txt
+- nw_italian_family_eet_t1610i.txt
+- nw_italian_family_eet_t1616i.txt
+- nw_italian_family_eet_t1626i.txt
+- nw_italian_family_eet_t1647i.txt
+- nw_italian_family_eet_t1652i.txt
+- nw_italian_family_eet_t1680i.txt
+- nw_italian_family_eet_t1689i.txt
+- nw_italian_family_eet_t1691i.txt
+- nw_italian_family_eet_t1696i.txt
