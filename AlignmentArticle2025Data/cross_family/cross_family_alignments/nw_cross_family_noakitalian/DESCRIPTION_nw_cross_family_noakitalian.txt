@@ -1,0 +1,26 @@
+Contains the Needleman-Wunsch cross-family alignments with the Arba Kitin passage removed from the Italian manuscripts (originally this passage does not appear in similar locations in Italian manuscripts as it does in Ashkenazi manuscripts). This is discussed in section 1.1.1.1.
+Files:
+- nw_cf_eet_noak_add19664.txt
+- nw_cf_eet_noak_bh3.txt
+- nw_cf_eet_noak_hebr313.txt
+- nw_cf_eet_noak_jts.txt
+- nw_cf_eet_noak_michael617.txt
+- nw_cf_eet_noak_or2735.txt
+- nw_cf_eet_noak_t1601i.txt
+- nw_cf_eet_noak_t1604i.txt
+- nw_cf_eet_noak_t1610i.txt
+- nw_cf_eet_noak_t1614a.txt
+- nw_cf_eet_noak_t1616i.txt
+- nw_cf_eet_noak_t1626i.txt
+- nw_cf_eet_noak_t1629a.txt
+- nw_cf_eet_noak_t1646a.txt
+- nw_cf_eet_noak_t1647i.txt
+- nw_cf_eet_noak_t1652i.txt
+- nw_cf_eet_noak_t1668a.txt
+- nw_cf_eet_noak_t1673a.txt
+- nw_cf_eet_noak_t1680i.txt
+- nw_cf_eet_noak_t1681a.txt
+- nw_cf_eet_noak_t1685a.txt
+- nw_cf_eet_noak_t1689i.txt
+- nw_cf_eet_noak_t1691i.txt
+- nw_cf_eet_noak_t1696i.txt
