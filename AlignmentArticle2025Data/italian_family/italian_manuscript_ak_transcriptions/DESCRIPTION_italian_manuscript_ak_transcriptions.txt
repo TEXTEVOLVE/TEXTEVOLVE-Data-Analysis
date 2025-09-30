@@ -1,0 +1,13 @@
+Contains the 'Arba Kitin transcriptions for the Italian family. 
+Files:
+- t1601i_AK.txt
+- t1694i_AK.txt
+- t1610i_AK.txt
+- t1616i_AK.txt
+- t1626i_AK.txt
+- t1647i_AK.txt
+- t1652i_AK.txt
+- t1680i_AK.txt
+- t1689i_AK.txt
+- t1691i_AK.txt
+- t1696i_AK.txt
