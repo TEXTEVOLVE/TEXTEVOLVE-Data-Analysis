@@ -1,0 +1,8 @@
+Contains the folders which have the different Needleman-Wunsch alignment subgroups for the Italian family
+
+- nw_italian_family_ak
+- nw_italian_family_eet
+- nw_italian_family_emt
+- nw_italian_family_subgroup1
+- nw_italian_family_tosefex15.2
+- nw_italian_family_verse_level
