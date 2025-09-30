@@ -128,7 +128,7 @@ def _generate_traceback_alignment(traceback_array, seq1, seq2, up_arrow="\u2191"
     aligned_seq1 = ""
     aligned_seq2 = ""
     alignment_indicator = ""
-    while arrow is not "-":
+    while arrow != "-":
         # print("Currently on row:",row)
         # print("Currently on col:",col)
         arrow = traceback_array[row, col]
