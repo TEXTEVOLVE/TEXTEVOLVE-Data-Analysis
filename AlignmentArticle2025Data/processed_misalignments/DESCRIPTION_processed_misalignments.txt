@@ -1,0 +1,5 @@
+Contains a folder of the randomly selected manuscripts, which have had misalignments highlighted and assessed, and the spreadsheet of the misalignment assessment results.
+
+Files and Folders:
+Misalignment_Highlights
+misalignments_assessment.xlsx
