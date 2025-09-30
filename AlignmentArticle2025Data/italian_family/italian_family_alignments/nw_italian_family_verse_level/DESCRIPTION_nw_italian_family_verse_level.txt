@@ -1,0 +1,13 @@
+Contains the verse-by-verse Needleman-Wunsch alignments of the Italian Family manuscripts.
+Files:
+- nw_verses_t1601i.txt
+- nw_verses_t1604i.txt
+- nw_verses_t1610i.txt
+- nw_verses_t1616i.txt
+- nw_verses_t1626i.txt
+- nw_verses_t1647i.txt
+- nw_verses_t1652i.txt
+- nw_verses_t1680i.txt
+- nw_verses_t1689i.txt
+- nw_verses_t1691i.txt
+- nw_verses_t1696i.txt
