@@ -1,0 +1,6 @@
+Contains the alignment and transcription files for the cross family analysis. 
+Folders:
+- cross_family_alignments
+- cross_family_score_matrices
+- cross_family_whole_transcriptions
+
