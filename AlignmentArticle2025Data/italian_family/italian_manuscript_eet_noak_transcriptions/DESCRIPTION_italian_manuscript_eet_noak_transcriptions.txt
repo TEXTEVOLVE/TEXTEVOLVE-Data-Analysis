@@ -1,0 +1,14 @@
+Contains the transcriptions of the Italian family manuscripts, including all verses, except the 'Arba Kitin passage.
+Files:
+
+- t1601i_eet_noak.txt
+- t1604i_eet_noak.txt
+- t1610i_eet_noak.txt
+- t1616i_eet_noak.txt
+- t1626i_eet_noak.txt
+- t1647i_eet_noak.txt
+- t1652i_eet_noak.txt
+- t1680i_eet_noak.txt
+- t1689i_eet_noak.txt
+- t1691i_eet_noak.txt
+- t1696i_eet_noak.txt
