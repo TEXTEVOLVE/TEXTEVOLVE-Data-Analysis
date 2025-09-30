@@ -1,8 +1,0 @@
-Contains the transcriptions for the Tosefta at Exodus 15:2 for the Italian family. 
-Files:
-- t1601i_TosEx15.2.txt
-- t1610i_TosEx15.2.txt
-- t1626i_TosEx15.2.txt
-- t1647i_TosEx15.2.txt
-- t1652i_TosEx15.2.txt
-- t1691i_TosEx15.2.txt
