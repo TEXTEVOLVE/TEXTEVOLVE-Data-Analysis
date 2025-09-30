@@ -1,0 +1,21 @@
+Contains folders with the Needleman-Wunsch alignments for each manuscript at the verse level. 
+
+Folders:
+- ex14.30_alignments
+- ex14.31_alignments
+- ex15.1_alignments
+- ex15.2_alignments
+- ex15.4_alignments
+- ex15.5_alignments
+- ex15.6_alignments
+- ex15.7_alignments
+- ex15.8_alignments
+- ex15.9_alignments
+- ex15.10_alignments
+- ex15.11_alignments
+- ex15.12_alignments
+- ex15.13_alignments
+- ex15.14_alignments
+- ex15.15_alignments
+- ex15.16_alignments
+- ex15.17_alignments
