@@ -1,0 +1,18 @@
+The manuscripts compared in subgroup 2: all the MSS in the LSP group, plus t1681a. Referenced in Table 1 and 2.1.2.1.
+
+ Excluded verses:
+
+- Exodus 15.7
+
+Files:
+- nw_set2_add19664.txt
+- nw_set2_jts.txt
+- nw_set2_or2735.txt
+- nw_set2_t1614a.txt
+- nw_set2_t1629a.txt
+- nw_set2_t1646a.txt
+- nw_set2_t1668a.txt
+- nw_set2_t1673a.txt
+- nw_set2_t1681a.txt
+
+
