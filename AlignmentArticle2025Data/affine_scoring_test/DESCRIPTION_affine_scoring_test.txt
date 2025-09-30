@@ -1,0 +1,6 @@
+Contains the outputs of a test of an affine gap penalty scheme on the dataset.
+Files:
+affine_confirm_test.txt: confirms that the affine code works correctly.
+affine_extension_0.txt: output with a gap extension penalty of 0.
+affine_test_weird_results: documenting strange output.
+cross_family_largestsharedpassage_affine_extension_0.5.txt: gives results of the output on the Liturgical Targum Family with a gap extension penalty of 0.5. 
