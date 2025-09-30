@@ -1,0 +1,7 @@
+Contains the transcriptions of the different combinations of verses for the Ashkenazi family.
+Folders:
+- ashkenazi_family_ak_transcriptions
+- ashkenazi_family_eet_transcriptions
+- ashkenazi_family_tosefex15.2_transcriptions
+- ashkenazi_family_emt_transcriptions
+- ashkenazi_family_verse_transcriptions
