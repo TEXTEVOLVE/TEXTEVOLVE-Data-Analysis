@@ -1,0 +1,16 @@
+Contains the Needleman-Wunsch alignments for the Ashkenazi manuscript Arba Kitin passages. 
+
+Files:
+- nw_ak_add19664.txt
+- nw_ak_bh3.txt
+- nw_ak_hebr313.txt
+- nw_ak_jts8092.txt
+- nw_ak_michael617.txt
+- nw_ak_or2735.txt
+- nw_ak_t1614a.txt
+- nw_ak_t1629a.txt
+- nw_ak_t1646a.txt
+- nw_ak_t1668a.txt
+- nw_ak_t1673a.txt
+- nw_ak_t1681a.txt
+- nw_ak_t1685a.txt
