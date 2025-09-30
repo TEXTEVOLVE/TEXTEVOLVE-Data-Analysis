@@ -1,0 +1,14 @@
+The manuscripts compared in set 3: all the MSS in the All_Verses group, plus t1685a. Referenced in Table 1 and 2.1.2.1 Excluded verses:
+
+- Ex. 14.31.
+
+Files:
+- nw_set3_add19664.txt
+- nw_set3_jts.txt
+- nw_set3_or2735.txt
+- nw_set3_t1614a.txt
+- nw_set3_t1629a.txt
+- nw_set3_t1646a.txt
+- nw_set3_t1668a.txt
+- nw_set3_t1673a.txt
+- nw_set3_t1685a.txt
