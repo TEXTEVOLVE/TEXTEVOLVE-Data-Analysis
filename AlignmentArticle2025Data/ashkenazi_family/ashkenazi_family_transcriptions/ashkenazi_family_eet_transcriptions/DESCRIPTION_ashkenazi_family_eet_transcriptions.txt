@@ -1,0 +1,16 @@
+Contains the transcriptions of the entire extant text (EET) combination of verses for the Ashkenazi family. This includes all extant verses for each manuscript of Exodus 14:30-15:17, plus the Tosefta at Exodus 15:2 and the Arba Kitin passage.
+
+Files:
+- Add.19664_eet.txt
+- B.H.3_eet.txt
+- Hebr313_eet.txt
+- JTS8092_eet.txt
+- Michael617_eet.txt
+- Or2735_eet.txt
+- t1614a_eet.txt
+- t1629a_eet.txt
+- t1646a_eet.txt
+- t1668a_eet.txt
+- t1673a_eet.txt
+- t1681a_eet.txt
+- t1685a_eet.txt
