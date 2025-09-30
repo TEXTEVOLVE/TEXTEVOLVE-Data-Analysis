@@ -1,0 +1,18 @@
+Requirements for Running Software:
+Needleman-Wunsch and Smith-Waterman Alignment (Python code)
+- Python 3.13
+- Packages:
+	- numpy 
+	- os
+t-SNE (R code)
+- R version 2024.12.1
+- Packages:
+	- Rtsne
+	- readxl
+	- ggplot2
+	- rgl
+	- pandoc 
+
+
+
+
