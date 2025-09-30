@@ -1,0 +1,14 @@
+Contains alignments for Exodus 15.13, for all the full Ashkenazi manuscripts containing this verse.
+
+Files:
+nw_add19664_ex15.13.txt
+nw_bh3_ex15.13.txt
+nw_jts_ex15.13.txt
+nw_or2735_ex15.13.txt
+nw_t1614a_ex15.13.txt
+nw_t1629a_ex15.13.txt
+nw_t1646a_ex15.13.txt
+nw_t1668a_ex15.13.txt
+nw_t1673a_ex15.13.txt
+nw_t1681a_ex15.13.txt
+nw_t1685a_ex15.13.txt
