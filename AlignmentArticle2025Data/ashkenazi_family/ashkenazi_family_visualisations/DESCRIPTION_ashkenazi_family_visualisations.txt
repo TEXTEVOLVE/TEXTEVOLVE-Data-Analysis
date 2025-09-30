@@ -1,0 +1,26 @@
+Contains the t-SNE plots for the Ashkenazi family, in PDF and PNG formats.
+
+Files:
+- ashkenazi_tosefex15.2(3).png
+- ashkenazi_tosefex15.2(3).pdf
+- ashkenazi_tosefex15.2(3).html
+- ashkenazi_subgroup3_tsne.html
+- ashkenazi_subgroup3_tsne.pdf
+- ashkenazi_subgroup3_tsne.png
+- ashkenazi_subgroup2_tsne.html
+- ashkenazi_subgroup2_tsne.png
+- ashkenazi_subgroup1_tsne.png
+- ashkenazi_subgroup1_tsne.pdf
+- ashkenazi_subgroup1_tsne.html
+- ashknenazi_lsp_tsne.png
+- ashknenazi_lsp_tsne.pdf
+- ashknenazi_lsp_tsne.html
+- ashkenazi_emt_tsne.png
+- ashkenazi_emt_tsne.pdf
+- ashkenazi_emt_tsne.html
+- ashkenazi_eet_tsne.png
+- ashkenazi_eet_tsne.pdf
+- ashkenazi_eet_tsne.html
+- ashkenazi_ak_tsne.png
+- ashkenazi_ak_tsne.pdf
+- ashkenazi_ak_tsne.html
