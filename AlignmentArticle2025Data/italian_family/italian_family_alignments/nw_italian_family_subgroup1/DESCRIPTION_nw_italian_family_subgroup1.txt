@@ -1,0 +1,10 @@
+Contains the Needleman-Wunsch alignments for the Italian family manuscripts which have Exodus 15:15, for that verse only. This corresponds to Italian Family Subgroup 1.
+Files:
+- nw_t1604i_subgroup1.txt
+- nw_t1616i_subgroup1.txt
+- nw_t1626i_subgroup1.txt
+- nw_t1647i_subgroup1.txt
+- nw_t1652i_subgroup1.txt
+- nw_t1680i_subgroup1.txt
+- nw_t1689i_subgroup1.txt
+- nw_t1691i_subgroup1.txt
