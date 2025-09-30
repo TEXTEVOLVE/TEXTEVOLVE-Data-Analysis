@@ -1,0 +1,4 @@
+Contains the alignment files for the cross-family subset2 analysis.
+Folders:
+- nw_cross_family_subset2_vbv
+- nw_cross_family_subset2_whole

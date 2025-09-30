@@ -1,0 +1,21 @@
+Contains the Needleman-Wunsch alignments for the cross-family set 2 whole manuscript analysis level.
+Files:
+- nw_cf_subset2_whole_add19664.txt
+- nw_cf_subset2_whole_jts.txt
+- nw_cf_subset2_whole_or2735.txt
+- nw_cf_subset2_whole_t1601i.txt
+- nw_cf_subset2_whole_t1604i.txt
+- nw_cf_subset2_whole_t1614a.txt
+- nw_cf_subset2_whole_t1616i.txt
+- nw_cf_subset2_whole_t1626i.txt
+- nw_cf_subset2_whole_t1629a.txt
+- nw_cf_subset2_whole_t1646a.txt
+- nw_cf_subset2_whole_t1647i.txt
+- nw_cf_subset2_whole_t1652i.txt
+- nw_cf_subset2_whole_t1668a.txt
+- nw_cf_subset2_whole_t1673a.txt
+- nw_cf_subset2_whole_t1680i.txt
+- nw_cf_subset2_whole_t1681a.txt
+- nw_cf_subset2_whole_t1689i.txt
+- nw_cf_subset2_whole_t1691i.txt
+- nw_cf_subset2_whole_t1696i.txt
