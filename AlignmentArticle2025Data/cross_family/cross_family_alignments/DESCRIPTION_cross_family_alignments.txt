@@ -1,0 +1,10 @@
+Contains the alignments for the cross-family analysis.
+Folders:
+- nw_cross_family_ak
+- nw_cross_family_eet
+- nw_cross_family_largest_shared_passage
+- nw_cross_family_noakitalian
+- nw_cross_family_subset1
+- nw_cross_family_subset2
+- nw_cross_family_tosefex15.2
+
