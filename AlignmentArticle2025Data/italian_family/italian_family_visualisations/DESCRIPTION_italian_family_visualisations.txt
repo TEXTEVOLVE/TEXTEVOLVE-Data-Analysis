@@ -1,0 +1,16 @@
+Contains the t-SNE visualisations and line plots for the Italian family. Contains cropped PNG files for journal submission and uncropped PDF files.
+Files:
+- italian_ak_tsne.html
+- italian_ak_tsne.pdf
+- italian_ak_tsne.png
+- italian_emt_tsne.html
+- italian_emt_tsne.pdf
+- italian_emt_tsne.png
+- italian_lsp_vbv_tsne.html
+- italian_lsp_vbv_tsne.pdf
+- italian_lsp_vbv_tsne.png
+- italian_tosefex15.2(3)_tsne.html
+- italian_tosefex15.2(3)_tsne.pdf
+- italian_tosefex15.2(3)_tsne.png
+- score_line_plot_data_t1689i_t1616i.xlsx
+- t1689i/t1616i_line_plot.png
