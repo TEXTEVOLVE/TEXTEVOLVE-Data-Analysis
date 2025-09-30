@@ -1,0 +1,13 @@
+Contains the EMT transcriptions for the Italian family. These transcriptions contain only the verses shared between each member of the Italian family, minus tosefta verses. This corresponds to Exodus 14:30-15:14, and Exodus 15:16-17.
+Files:
+- t1601i_emt.txt
+- t1604i_emt.txt
+- t1610i_emt.txt
+- t1616i_emt.txt
+- t1626i_emt.txt
+- t1647i_emt.txt
+- t1652i_emt.txt
+- t1680i_emt.txt
+- t1689i_emt.txt
+- t1691i_emt.txt
+- t1696i_emt.txt
