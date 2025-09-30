@@ -1,0 +1,10 @@
+Contains the Needleman-Wunsch alignments for the Ashkenazi Family Largest Shared Passage group. This is referenced in the article in section 2.1.2.1, and in Table 1. It is comprised of verses Exodus 14:30-Exodus 15:17. 
+Files:
+- nw_lsp_add19664.txt
+- nw_lsp_jts8092.txt
+- nw_lsp_or2735.txt
+- nw_lsp_t1614a.txt
+- nw_lsp_t1629a.txt
+- nw_lsp_t1646a.txt
+- nw_lsp_t1668a.txt
+- nw_lsp_t1673a.txt
