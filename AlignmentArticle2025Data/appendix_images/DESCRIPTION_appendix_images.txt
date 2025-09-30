@@ -1,0 +1,8 @@
+Contains high-res screenshots of the misalignment analysis discussed in the appendix.
+Files:
+- appendixfig1
+- appendixfig2
+- appendixfig3
+- appendixfig4
+- appendixfig5
+- appendixfig6
