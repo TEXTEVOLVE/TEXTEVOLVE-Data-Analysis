@@ -3,6 +3,7 @@ import os
 
 
 def _generate_traceback_array(seq1, seq2):
+    '''Builds the matrix'''
     n_rows = len("-" + seq1)
     n_columns = len("-" + seq2)
     scoring_array = full([n_rows, n_columns], 0)
@@ -81,6 +82,7 @@ def _generate_traceback_array(seq1, seq2):
 
 def _generate_traceback_alignment(traceback_array, seq1, seq2, max_index, up_arrow="\u2191",
                                   left_arrow="\u2190", up_left_arrow="\u2196", stop="-"):
+                                      '''Populates the matrix with the alignment '''
     n_rows = len(seq1) + 1
     n_columns = len(seq2) + 1
     (max_seq1, max_seq2) = max_index
@@ -130,12 +132,14 @@ def _generate_traceback_alignment(traceback_array, seq1, seq2, max_index, up_arr
 
 
 def smith_waterman(seq1, seq2):
+    ''' Runs  Smith-Waterman algorithm '''
     traceback_array, score, max_score, max_index = _generate_traceback_array(seq1, seq2)
     seq1, seq2 = _generate_traceback_alignment(traceback_array, seq1, seq2, max_index)
     return seq1, seq2, score
 
 
 def run():
+    ''' Is the loop to run through the files and apply the algorithm '''
     os.getcwd()
     # within the os module, returns the current working directory of a process.
     cwd = os.getcwd()
@@ -186,6 +190,7 @@ def run():
 
 
 def print_alignment(string1, string2):
+    ''' Prints the alignment with pipes for ease of reading'''
     string1 = string1.replace("\n", "")
     string2 = string2.replace("\n", "")
     index = 0
@@ -204,6 +209,7 @@ def print_alignment(string1, string2):
 
 
 def pipes(n):
+    ''' Attaches pipes to algorithm output'''
     empty = ""
     for i in range(n):
         empty = empty + "|"
