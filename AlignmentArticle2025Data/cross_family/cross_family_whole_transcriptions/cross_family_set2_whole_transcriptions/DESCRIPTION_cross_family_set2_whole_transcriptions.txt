@@ -1,0 +1,22 @@
+Contains the cross-family set2 transcriptions for that analytical unit.
+Files:
+- Add.19664Set2_whole.txt
+- JTS8092Set2_whole.txt
+- Or2735Set2_whole.txt
+- t1601iSet2_whole.txt
+- t1604iSet2_whole.txt
+- t1610iSet2_whole.txt
+- t1614aSet2_whole.txt
+- t1616iSet2_whole.txt
+- t1626iSet2_whole.txt
+- t1629aSet2_whole.txt
+- t1646aSet2_whole.txt
+- t1647iSet2_whole.txt
+- t1652iSet2_whole.txt
+- t1668aSet2_whole.txt
+- t1673aSet2_whole.txt
+- t1680iSet2_whole.txt
+- t1681aSet2_whole.txt
+- t1689iSet2_whole.txt
+- t1691iSet2_whole.txt
+- t1696iSet2_whole.txt
