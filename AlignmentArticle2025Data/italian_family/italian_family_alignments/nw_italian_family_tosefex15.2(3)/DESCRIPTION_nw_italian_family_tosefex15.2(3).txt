@@ -1,0 +1,8 @@
+Contains the alignments of the Exodus 15.2(3) tosefta passages for the Italian manuscripts. Corresponds to the Italian Exodus 15.2(3) Tosefta Subgroup.
+Files:
+- nw_tosefex15.2(3)_t1604i.txt
+- nw_tosefex15.2(3)_t1610i.txt
+- nw_tosefex15.2(3)_t1626i.txt
+- nw_tosefex15.2(3)_t1647i.txt
+- nw_tosefex15.2(3)_t1652i.txt
+- nw_tosefex15.2(3)_t1691i.txt
